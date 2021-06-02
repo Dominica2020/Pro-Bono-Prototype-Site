@@ -1,0 +1,79 @@
+/* Main Page */
+
+body {
+    margin: 0px;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#mbcs-logo {
+    width: 250px;
+    margin-left: 5px;
+}
+
+#bar-menu {
+    width: 50px;
+    margin-right: 30px;
+}
+
+#hidden-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: right;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+#menu-items > li {
+    list-style-type: none;
+    margin: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.menu-hr {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Backdrop Content Section */
+
+#main-content {
+    padding: 0;
+    margin: 0;
+
+}
+
+#main-backdrop {
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+
+
+/* -- Extra --
+
+#intro-div {
+    background-image: url(../assets/images/backdrop-highlight.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 50vh;
+}
+
+*/
