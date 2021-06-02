@@ -18,7 +18,8 @@
  <!-- Nav Content -->
  <div id="navbar">
     <img src="assets/images/SVG/MBCS-logo1.svg" id="mbcs-logo">
-    <img src="assets/images/hambuger-menu.svg" id="bar-menu">
+    <img src="assets/images/hambuger-menu.svg" id="bar-menu" onclick="menuFunction()">
+    <img src="assets/images/close-menu-button.svg" alt="close-button" id="close-menu" onclick="closeFunction()">
  </div> 
 
     <div id="hidden-menu">
@@ -41,6 +42,23 @@
             </div>
         </div>
     </div>
+
+<script>
+
+function menuFunction() {
+    document.getElementById("bar-menu").style.display = "none";
+    document.getElementById("hidden-menu").style.display = "unset";
+    document.getElementById("close-menu").style.display = "unset";
+}
+
+function closeFunction() {
+    document.getElementById("close-menu").style.display = "none";
+    document.getElementById("hidden-menu").style.display = "none";
+    document.getElementById("bar-menu").style.display = "unset";
+}
+
+
+</script>
 
 </body>
 </html>
