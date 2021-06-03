@@ -13,8 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 0px;
-    
+    margin: 0px;   
 }
 
 #mbcs-logo {
@@ -45,12 +44,13 @@ body {
 #hidden-menu {
     background-color: rgba(0, 0, 0, 0.9);
     text-align: right;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     display: none;
     padding-right: 10px;
     right: 0;
     left: 0;
+    margin: 0 auto; 
 }
 
 #menu-items > li {
@@ -58,6 +58,7 @@ body {
     margin: 20px;
     color: white;
     margin-bottom: 30px;
+    
 }
 
 .menu-hr {
@@ -99,15 +100,16 @@ a {
     border-radius: 50%;
     border: 8px solid white;
     width: 300px;
-    margin-top: -250px;
-    
+    margin-top: -250px;  
 }
 
 .container-fluid {
     overflow: hidden !important;
     padding: 0 !important;
-    
 }
+
+
+/* Carousel Section */
 
 
 
@@ -119,13 +121,7 @@ a {
 
 /* -- Extra --
 
-#intro-div {
-    background-image: url(../assets/images/backdrop-highlight.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed; 
-    height: 50vh;
-}
+
+
 
 */

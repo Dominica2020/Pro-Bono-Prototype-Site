@@ -25,11 +25,13 @@
 
 
  <!-- Main Content -->
+
+    <!-- Hidden Menu -->
     <div class="container-fluid" id="main-content">
         <div class="row" id="hidden-menu">
             <div class="col" >
                 <ul id="menu-items">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#mbcs-logo">Home</a></li>
                     <hr class="menu-hr">
                     <li><a href="#">About</a></li>
                     <hr class="menu-hr">
@@ -40,6 +42,7 @@
             </div>
         </div>
 
+        <!-- Banner Section -->
         <div class="row">
             <div class="col" id="backdrop-section">
                 <img src="assets/images/backdrop-highlight.jpg" alt="cover-photo" id="main-backdrop">
@@ -47,11 +50,15 @@
             </div>
         </div>
 
+        <!-- Headshot Section -->
         <div class="row">
             <div class="col" id="headshot-section">
                 <img src="assets/images/head-shot.jpg" alt="head-shot" id="head-shot-photo">
             </div>
         </div>
+
+        <!-- Carousel Section -->
+
     </div>
 
 <script>
@@ -60,14 +67,14 @@ function menuFunction() {
     document.getElementById("bar-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "unset";
     document.getElementById("close-menu").style.display = "unset";
-    document.getElementById("banner-1").style.display = "none";
+    document.getElementById("banner-1").style.visibility = "hidden";
 }
 
 function closeFunction() {
     document.getElementById("close-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "none";
     document.getElementById("bar-menu").style.display = "unset";
-    document.getElementById("banner-1").style.display = "block";
+    document.getElementById("banner-1").style.visibility = "visible";
 }
 
 
