@@ -16,29 +16,40 @@
 <body>
 
  <!-- Nav Content -->
+
  <div id="navbar">
     <img src="assets/images/SVG/MBCS-logo1.svg" id="mbcs-logo">
     <img src="assets/images/hambuger-menu.svg" id="bar-menu" onclick="menuFunction()">
     <img src="assets/images/close-menu-button.svg" alt="close-button" id="close-menu" onclick="closeFunction()">
  </div> 
 
-    <div id="hidden-menu">
-        <ul id="menu-items">
-            <li><a href="#">Home</a></li>
-            <hr class="menu-hr">
-            <li><a href="#">About</a></li>
-            <hr class="menu-hr">
-            <li><a href="#">Projects</a></li>
-            <hr class="menu-hr">
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
 
  <!-- Main Content -->
-    <div class="container" id="main-content">
+    <div class="container-fluid" id="main-content">
+        <div class="row" id="hidden-menu">
+            <div class="col" >
+                <ul id="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <hr class="menu-hr">
+                    <li><a href="#">About</a></li>
+                    <hr class="menu-hr">
+                    <li><a href="#">Projects</a></li>
+                    <hr class="menu-hr">
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col" id="backdrop-section">
                 <img src="assets/images/backdrop-highlight.jpg" alt="cover-photo" id="main-backdrop">
+                <h1 id="banner-1">Consultancy Services</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" id="headshot-section">
+                <img src="assets/images/head-shot.jpg" alt="head-shot" id="head-shot-photo">
             </div>
         </div>
     </div>
@@ -49,12 +60,14 @@ function menuFunction() {
     document.getElementById("bar-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "unset";
     document.getElementById("close-menu").style.display = "unset";
+    document.getElementById("banner-1").style.display = "none";
 }
 
 function closeFunction() {
     document.getElementById("close-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "none";
     document.getElementById("bar-menu").style.display = "unset";
+    document.getElementById("banner-1").style.display = "block";
 }
 
 
