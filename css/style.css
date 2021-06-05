@@ -108,11 +108,59 @@ a {
     padding: 0 !important;
 }
 
+#about-blurb-section {
+    margin-top: 40px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#more-to-about-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+#lightbulb-section {
+    text-align: center;
+}
+
+#yellow-proj-icon {
+    width: 250px;
+    margin-top: 40px;
+}
+
 
 /* Carousel Section */
 
+#carousel-section {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#carouselExampleCaptions {
+    
+}
 
 
+/* Email Section */
+
+#email-section-row {
+    margin-top: 60px;
+    background-color: #0156D8;
+}
+
+#email-section {
+    background-image: url("../assets/images/Email-background-design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    
+}
+
+#email-background {
+    
+}
 
 
 
@@ -121,7 +169,13 @@ a {
 
 /* -- Extra --
 
+#email-section {
+    margin-top: 100px;
+    text-align: center;  
+}
 
-
+#email-background {
+    
+}
 
 */
