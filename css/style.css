@@ -42,7 +42,7 @@ body {
 }
 
 #hidden-menu {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(16, 40, 149, 0.9);
     text-align: right;
     position: fixed;
     width: 100vw;
@@ -113,6 +113,7 @@ a {
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+    font-size: 22px;
 }
 
 #more-to-about-link {
@@ -135,10 +136,8 @@ a {
 #carousel-section {
     text-align: center;
     margin-top: 50px;
-    
-}
-
-#carouselExampleCaptions {
+    padding-left: 15%;
+    padding-right: 15%;
     
 }
 
@@ -154,14 +153,74 @@ a {
     background-image: url("../assets/images/Email-background-design.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
-    
+    height: 75vh;  
 }
 
-#email-background {
-    
+#email-box {
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 40px;
+    margin-right: 130px;
+    padding: 25px 15px 15px 15px;
+    width: 350px;
+    height: 400px;
 }
 
+#email-box > h1 {
+    text-align: center;
+}
+
+#email-box-p {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#button-holder {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button {
+    color: white;
+    background-color: chocolate;
+    border-style: none;
+}
+
+#test {
+    width: 660px;
+    position: absolute;
+    top: 210px;
+    z-index: 8;
+    right: 380px;
+}
+
+
+
+/* Hurree Section */
+
+#hurree-section {
+    padding-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+#hurree-section > p {
+    text-align: justify;
+    padding-top: 20px;
+}
+
+#hurree-logo-section > img {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 40%;
+
+    margin-bottom: 100px;
+}
 
 
 
@@ -169,13 +228,6 @@ a {
 
 /* -- Extra --
 
-#email-section {
-    margin-top: 100px;
-    text-align: center;  
-}
 
-#email-background {
-    
-}
 
 */
