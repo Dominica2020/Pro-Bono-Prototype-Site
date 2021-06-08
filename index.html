@@ -20,7 +20,7 @@
  <!-- Nav Content -->
 
  <div id="navbar">
-    <img src="assets/images/SVG/MBCS-logo1.svg" id="mbcs-logo">
+    <h1 id="mbcs">MBCS</h1>
     <img src="assets/images/hambuger-menu.svg" id="bar-menu" onclick="menuFunction()">
     <img src="assets/images/close-menu-button.svg" alt="close-button" id="close-menu" onclick="closeFunction()">
  </div> 
@@ -48,7 +48,9 @@
         <div class="row" id="backdrop-section">
             <div class="col">
                 <img src="assets/images/backdrop-highlight.jpg" alt="cover-photo" id="main-backdrop">
-                <h1 id="banner-1">Consultancy Services</h1>
+                <div id="logo-div">
+                    <img src="assets/images/SVG/MBCS-logo1.svg" id="mbcs-logo">
+                </div>
             </div>
         </div>
 
@@ -193,14 +195,14 @@ function menuFunction() {
     document.getElementById("bar-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "unset";
     document.getElementById("close-menu").style.display = "unset";
-    document.getElementById("banner-1").style.visibility = "hidden";
+    document.getElementById("logo-div").style.visibility = "hidden";
 }
 
 function closeFunction() {
     document.getElementById("close-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "none";
     document.getElementById("bar-menu").style.display = "unset";
-    document.getElementById("banner-1").style.visibility = "visible";
+    document.getElementById("logo-div").style.visibility = "visible";
 }
 </script>
 
