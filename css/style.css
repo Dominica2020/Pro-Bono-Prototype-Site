@@ -15,7 +15,7 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-    font-family:"Helvetica Neue LT GEO W82_65 M";
+    font-family:"Helvetica Neue LT GEO W82_35 T";
 }
 
 /* Navbar */
@@ -32,6 +32,7 @@ body {
     margin-left: 5px;
     letter-spacing: 2px;
     margin-bottom: 0;
+    font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
 #bar-menu {
@@ -71,6 +72,7 @@ body {
     margin: 20px;
     color: white;
     margin-bottom: 30px;
+    letter-spacing: 1.5px;
 }
 
 .menu-link:hover {
@@ -132,6 +134,7 @@ a {
     padding-left: 20%;
     padding-right: 20%;
     font-size: 22px;
+    letter-spacing: 1px;
 }
 
 #more-to-about-link {
@@ -152,9 +155,9 @@ a {
 /* Carousel Section */
 #carousel-section {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     padding-left: 15%;
-    padding-right: 15%; 
+    padding-right: 15%;
 }
 
 
@@ -165,9 +168,19 @@ a {
     padding-right: 20%;
 }
 
+h5 {
+    font-size: 25px;
+    font-family:"Helvetica Neue LT GEO W82_65 M";
+}
+
+#hurree-section > h1 {
+    font-family:"Helvetica Neue LT GEO W82_65 M";
+}
+
 #hurree-section > p {
     text-align: justify;
     padding-top: 20px;
+    font-size: 20px;
 }
 
 #hurree-link {
@@ -176,7 +189,7 @@ a {
 }
 
 #hurree-logo {
-    width: 350px;
+    width: 375px;
     display: inline-block;
     margin-top: 30px;
 }
@@ -208,11 +221,12 @@ a {
 
 #email-box > h1 {
     text-align: center;
+    font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
 #email-box-p {
     margin-top: 20px;
-    font-weight: 600;
+    font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
 input[type="text"] {
@@ -237,9 +251,9 @@ input[type="text"], input[type="email"] {
     padding: 5px 6px;
     border-radius: 16px;
     width: 60%;
-    font-weight: bold;
     letter-spacing: 1.5px;
     font-size: 25px; 
+    font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
 
@@ -256,6 +270,7 @@ footer {
 footer > p {
     font-size: 14px;
     margin-bottom: 0;
+    font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
 .social-icon {
@@ -283,6 +298,13 @@ footer > p {
 
 
 /* -- Home Page Extra --
+
+#carousel-section {
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%; 
+}
 
 #logo-div {
     position: relative;
