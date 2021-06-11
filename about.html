@@ -34,24 +34,82 @@
         <div class="row" id="hidden-menu">
             <div class="col" >
                 <ul id="menu-items">
-                    <li><a href="#mbcs-logo" class="menu-link">Home</a></li>
+                    <li><a href="index.html" class="menu-link">Home</a></li>
                     <hr class="menu-hr">
                     <li><a href="about.html" class="menu-link">About</a></li>
                     <hr class="menu-hr">
-                    <li><a href="#" class="menu-link">Projects</a></li>
+                    <li><a href="projects.html" class="menu-link">Projects</a></li>
                     <hr class="menu-hr">
-                    <li><a href="#" class="menu-link">Contact</a></li>
+                    <li><a href="index.html#email-section-row" class="menu-link">Contact</a></li>
                 </ul>
             </div>
         </div>
    
+        <!-- Banner Section -->
+        <div class="row" id="about-backdrop-section">
+            <div class="col">
+                <img src="assets/images/airplane-engine.jpg" alt="cover-photo" id="about-backdrop">
+                <h1 id="banner-1">About</h1>
+            </div>
+        </div>
 
+        <!-- Headshot Section -->
+        <div class="row" id="headshot-section">
+            <div class="col">
+                <img src="assets/images/head-shot.jpg" alt="head-shot" id="head-shot-photo">
+            </div>
+        </div>
 
+        <!-- About Section -->
+        <div class="row">
+            <div class="col" id="about-section">
+                <p>
+                    <span class="drop-letter">L</span>orem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p> 
 
+                <hr class="about-hr">
 
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
 
+                <hr class="about-hr">
 
-
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+        <div class="row" id="signature-div">
+            <div class="col">
+                <h1 id="signature">Matthew I C Barnard</h1>
+            </div>
+        </div>
 
 
         
@@ -81,14 +139,14 @@ function menuFunction() {
     document.getElementById("bar-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "unset";
     document.getElementById("close-menu").style.display = "unset";
-    document.getElementById("logo-div").style.visibility = "hidden";
+    document.getElementById("banner-1").style.visibility = "hidden";
 }
    
 function closeFunction() {
     document.getElementById("close-menu").style.display = "none";
     document.getElementById("hidden-menu").style.display = "none";
     document.getElementById("bar-menu").style.display = "unset";
-    document.getElementById("logo-div").style.visibility = "visible";
+    document.getElementById("banner-1").style.visibility = "visible";
 }
 </script>
    

@@ -274,18 +274,78 @@ footer > p {
 }
 
 .social-icon {
-    width: 45px;
+    width: 35px;
 }
 
 
 
 /* --------------------- About Page --------------------- */
 
+/* Backdrop Content & Headshot Section */
+#about-backdrop-section {
+    text-align: center;
+}
+
+#about-backdrop {
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+
+#banner-1 {
+    color: white;
+    background-color: rgba(10, 23, 83, 0.60);
+    padding: 40px;
+    width: 100vw;
+    position: relative;
+    top: -50%;
+    z-index: 2;
+    font-size: 65px;
+    letter-spacing: 10px;
+    font-family:"Helvetica Neue LT GEO W82_65 M";
+}
 
 
+/* About Section */
+.drop-letter {
+    font-size: 35px;
+    font-style: "Helvetica Neue LT GEO W82_65 M";
+    padding-right: 3px;
+    font-weight: 900;
+}
 
+#about-section > p {
+    letter-spacing: 1.5px;
+    line-height: 2;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
 
+.about-hr {
+    width: 20%;
+    margin: 0 auto; 
+    border: none;
+    border-top: 1px solid black;
+    opacity: unset;
+}
 
+#signature-div {
+    text-align: right;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+#signature {
+    margin-right: 20%;
+    font-size: 26px;
+    font-style: "Helvetica Neue LT GEO W82_65 M";
+    font-weight: 700;
+}
 
 
 
@@ -321,6 +381,21 @@ OR
     z-index: 2;
     border: 5px solid rgba(63, 169, 245, 0.6);
     top: -300px;
+}
+
+-- About Page Extra --
+
+background-color: rgba(16, 40, 149, 0.65);
+
+background-color: rgba(0, 0, 255, 0.65);
+
+.about-hr {
+    width: 20%;
+    margin: 0 auto; 
+    border: none !important;
+    height: 5px !important;
+    border-top: 5px solid black !important;
+    
 }
 
 */
