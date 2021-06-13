@@ -104,11 +104,10 @@ a {
 
 #logo-div {
     position: relative;
-    background-color: rgba(63, 169, 245, 0.6);
+    background-color: rgba(0, 0, 245, 0.4);
     top: -50%;
-    padding: 5px;
+    padding: 10px;
 }
-
 
 #mbcs-logo {
     width: 600px;
@@ -195,7 +194,6 @@ h5 {
 }
 
 
-
 /* Email Section */
 #email-section-row {
     margin-top: 60px;
@@ -214,7 +212,7 @@ h5 {
     margin-top: 45px;
     margin-left: 10%;
     margin-right: 130px;
-    padding: 25px 15px 15px 15px;
+    padding: 25px 30px 15px 30px;
     width: 400px;
     height: 450px;
 }
@@ -237,6 +235,10 @@ input[type="text"], input[type="email"] {
     margin-bottom: 20px;
     width: 100%;
     height: 40px;
+}
+
+input::placeholder {
+    padding-left: 5px;
 }
 
 #button-holder {
@@ -292,11 +294,18 @@ footer > p {
     height: 60vh;
     position: relative;
     z-index: -1;
+    opacity: 0.4;
+}
+
+.background-color-div {
+    background-color: blue;
+    position: relative;
+    z-index: -5;
 }
 
 #banner-1 {
     color: white;
-    background-color: rgba(10, 23, 83, 0.60);
+    background-color: rgba(16, 40, 149, 0.45);
     padding: 40px;
     width: 100vw;
     position: relative;
@@ -324,14 +333,28 @@ footer > p {
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 20px;
+    text-align: justify;
+}
+
+.about-headers-div {
+    text-align: center;
+}
+
+.about-heading {
+    font-style: "Helvetica Neue LT GEO W82_65 M";
+    display: inline-block;
+    font-size: 45px;
+    letter-spacing: 5px;
+    padding-right: 10px;
 }
 
 .about-hr {
     width: 20%;
-    margin: 0 auto; 
     border: none;
     border-top: 1px solid black;
     opacity: unset;
+    display: inline-block;
+    margin: 0 auto; 
 }
 
 #signature-div {
@@ -348,16 +371,85 @@ footer > p {
 }
 
 
+/* --------------------- Projects Page --------------------- */
+
+/* Backdrop Content Section */
+#projects-backdrop-section {
+    text-align: center;
+    height: 60vh;
+}
+
+#projects-backdrop {
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+    opacity: 0.45;
+}
+
+/* Proects Section */
+.projects-div-left {
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.projects-div-1 {
+    margin-top: 5%;
+}
+
+.projects-div-right {
+    margin-top: 10%;
+}
+
+.company-name-div, .company-link-div {
+    text-align: center;
+    font-style: "Helvetica Neue LT GEO W82_65 M";
+}
+
+.company-name-div {
+    margin-bottom: 20px;
+}
+
+.proj-icon {
+    width: 55%;
+}
+
+.proj-points {
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 2;
+    font-family:"Helvetica Neue LT GEO W82_35 T";
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.proj-points > li {
+    margin-bottom: 15px;
+}
+
+button {
+    color: white;
+    background-color: #F7931E;
+    border-style: none;
+    padding: 5px 6px;
+    border-radius: 16px;
+    width: 30%;
+    letter-spacing: 1.5px;
+    font-size: 25px; 
+    font-family:"Helvetica Neue LT GEO W82_65 M";
+}
+
+.projects-footer {
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
 
 
 
+/* 
 
-
-
-
-
-
-/* -- Home Page Extra --
+-- Home Page Extra --
 
 #carousel-section {
     text-align: center;
@@ -385,17 +477,9 @@ OR
 
 -- About Page Extra --
 
-background-color: rgba(16, 40, 149, 0.65);
-
 background-color: rgba(0, 0, 255, 0.65);
 
-.about-hr {
-    width: 20%;
-    margin: 0 auto; 
-    border: none !important;
-    height: 5px !important;
-    border-top: 5px solid black !important;
-    
-}
+-- Projects Page Extra --
+
 
 */
