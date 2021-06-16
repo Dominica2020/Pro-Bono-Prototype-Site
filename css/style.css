@@ -35,6 +35,10 @@ body {
     font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
+#back-home {
+    color:  #202125;
+}
+
 #bar-menu {
     width: 50px;
     margin-right: 30px;
@@ -298,7 +302,7 @@ footer > p {
 }
 
 .background-color-div {
-    background-color: blue;
+    background-color: rgb(5, 71, 212);
     position: relative;
     z-index: -5;
 }
