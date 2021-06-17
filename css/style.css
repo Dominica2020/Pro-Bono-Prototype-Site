@@ -367,13 +367,17 @@ footer > p {
 }
 
 @media (max-width: 320px) {
+    #main-backdrop {
+        height: 70vh;
+    }
+
     #mbcs-logo {
         width: 300px;
     }
 
     #head-shot-photo {
-        width: 200px;
-        margin-top: -160px;  
+        width: 210px;
+        margin-top: -174px;  
     }
 
     #hurree-logo {
