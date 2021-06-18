@@ -395,7 +395,6 @@ footer > p {
 
 
 
-
 /* --------------------- About Page --------------------- */
 
 /* Backdrop Content & Headshot Section */
@@ -484,6 +483,20 @@ footer > p {
     font-weight: 700;
 }
 
+/**** Media Queries ****/
+@media (max-width: 320px) {
+    #about-section > p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .about-heading {
+        font-size: 30px;
+    } 
+}
+    
+
+
 
 /* --------------------- Projects Page --------------------- */
 
@@ -558,6 +571,41 @@ button {
     border-top: 1px solid black;
     margin-top: 100px;
 }
+
+/**** Media Queries ****/
+@media (max-width: 767px) {
+   .projects-div-1 {
+        margin-top: 5%;
+   }
+   
+    .projects-div-1, .projects-div-right {
+        margin-left: 20px;
+    }
+    
+    .projects-div-left, .projects-div-right {
+        margin-top: 20px;
+    } 
+
+    .proj-icon {
+        width: 40%;
+        margin-top: 8%;
+    }
+
+    .after-first {
+        display: none;
+    }
+
+    .company-name-div > h1 {
+        margin-top: 10%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    
+}
+
+
 
 
 
