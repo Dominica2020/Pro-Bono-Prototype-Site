@@ -605,12 +605,28 @@ button {
     }
 }
 
-@media (max-width: 575px) {
-
+@media (max-width: 515px) {
+    .projects-div-left, .projects-div-right {
+        margin-top: 30px;
+    } 
+    
+    .proj-points > li {
+        margin-bottom: 5px;
+    }
 }
 
+@media (max-width: 450px) {
+    button {
+        width: 50%;
+    }
+}
 
-
+@media (max-width: 320px) {
+    .proj-icon {
+        width: 50%;
+        margin-top: 8%;
+    }
+}
 
 
 
