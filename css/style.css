@@ -163,8 +163,8 @@ a {
     padding-right: 15%;
 }
 
-/* Hurree Section */
-#hurree-section {
+/* Hurree & Afrostory Section */
+#hurree-section, #afrostory-section {
     padding-top: 80px;
     padding-left: 20%;
     padding-right: 20%;
@@ -179,6 +179,10 @@ h5 {
     font-family:"Helvetica Neue LT GEO W82_65 M";
 }
 
+#afrostory-section > h1 {
+    font-family:"Helvetica Neue LT GEO W82_65 M";
+}
+
 #hurree-section > p {
     text-align: justify;
     padding-top: 20px;
@@ -190,7 +194,7 @@ h5 {
     text-decoration: underline;
 }
 
-#hurree-logo {
+#hurree-logo, #afrostory-logo {
     width: 375px;
     display: inline-block;
     margin-top: 30px;
@@ -348,9 +352,13 @@ footer > p {
         padding-right: 10%;
     }
 
-    #hurree-section {
+    #hurree-section, #afrostory-section {
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    #afrostory-logo {
+        width: 360px;
     }
 
     #email-box {
@@ -388,7 +396,7 @@ footer > p {
         margin-top: -174px;  
     }
 
-    #hurree-logo {
+    #hurree-logo, #afrostory-logo {
         width: 310px;
     }
 
