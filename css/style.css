@@ -189,6 +189,18 @@ h5 {
     font-size: 20px;
 }
 
+#afrostory-section > p, #afrostory-section > ol {
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+ol > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #hurree-link {
     color: blue;
     text-decoration: underline;
