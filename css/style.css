@@ -201,6 +201,10 @@ ol > p {
     margin-bottom: 20px;
 }
 
+#last-li {
+    margin-bottom: 40px;
+}
+
 #hurree-link {
     color: blue;
     text-decoration: underline;
@@ -210,6 +214,10 @@ ol > p {
     width: 375px;
     display: inline-block;
     margin-top: 30px;
+}
+
+#afrostory-logo {
+    margin-bottom: 40px;
 }
 
 /* Email Section */
@@ -315,6 +323,26 @@ footer > p {
         width: 250px;
         margin-top: -250px;  
     }
+
+    #email-section {
+        height: 80vh;
+    }
+
+    #email-box {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #button {
+        font-size: 20px; 
+    } 
+}
+
+@media (max-width: 500px) {
+    #button {
+        font-size: 16px; 
+    } 
 }
 
 @media (max-width: 415px) {
@@ -371,6 +399,10 @@ footer > p {
 
     #afrostory-logo {
         width: 360px;
+    }
+
+    #email-section {
+        height: 75vh;
     }
 
     #email-box {
