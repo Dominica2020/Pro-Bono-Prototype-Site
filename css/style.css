@@ -163,6 +163,11 @@ a {
     padding-right: 15%;
 }
 
+.photo1, .photo2 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 /* Hurree & Afrostory Section */
 #hurree-section, #afrostory-section {
     padding-top: 80px;
