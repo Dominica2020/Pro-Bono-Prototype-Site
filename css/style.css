@@ -194,7 +194,7 @@ h5 {
     font-size: 20px;
 }
 
-#afrostory-section > p, #afrostory-section > ol {
+#redacted > p, #redacted-section > ol {
     text-align: justify;
     padding-top: 20px;
     font-size: 20px;
@@ -210,18 +210,18 @@ ol > p {
     margin-bottom: 40px;
 }
 
-#hurree-link {
+#redacted-link {
     color: blue;
     text-decoration: underline;
 }
 
-#hurree-logo, #afrostory-logo {
+#redacted1-logo, #redacted2-logo {
     width: 375px;
     display: inline-block;
     margin-top: 30px;
 }
 
-#afrostory-logo {
+#redacted-logo {
     margin-bottom: 40px;
 }
 
